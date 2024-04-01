@@ -1,0 +1,67 @@
+.card{
+    border: 3px solid rgb(16, 131, 146);
+    border-radius: 0.5em;
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: white;
+    box-shadow: 10px 10px 8px #888888;
+    margin-bottom: 50px;
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.avatar img{
+    width: 100px;
+    border-radius: 1em;
+    margin-left: 10px;
+    object-fit: contain;
+    border: 1px solid black
+}
+
+.section{
+    width: 100%;
+    border-left: 3px solid rgb(16, 131, 146);
+    padding: 10px;
+}
+
+.info{
+    width: 100%;
+    text-align: center;
+   
+}
+
+.name{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    
+}
+
+.buttons{
+    padding: 10px;
+    text-align: center;
+}
+
+.buttons button{
+    margin: 5px;
+}
+
+@media only screen and (max-width: 768px){
+    .card{
+      width: 80%;
+    }
+
+    .name{
+        flex-direction: column;
+    }
+
+    .info p{
+        font-size: small;
+    }
+  }
