@@ -46,7 +46,7 @@ const Team = ({open, onClose}) => {
 
     const deleteTeam = async({id, userId}) => {
       try {
-        const response = await axios.delete(`https://users-backend-1tvg.onrender.comapi/users/team/${id}/${userId}`)
+        const response = await axios.delete(`https://users-backend-1tvg.onrender.com/api/users/team/${id}/${userId}`)
         console.log(response.data)
         if(response.data.error){
           console.log(response.data.error)
