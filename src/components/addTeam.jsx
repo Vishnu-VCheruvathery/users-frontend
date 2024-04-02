@@ -35,7 +35,7 @@ const AddTeam = ({userId,open, onClose}) => {
      const addTeam = async(id) => {
         try {
             if(!isNaN(id)){
-              const response = await axios.post(`http://localhost:3000/api/users/team/`, {id, userId})
+              const response = await axios.post(`https://users-backend-1tvg.onrender.com/api/users/team/`, {id, userId})
               console.log(response.data)
               toast(response.data.message)
               return response.data
