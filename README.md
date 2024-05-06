@@ -1,5 +1,6 @@
 # React + Vite
 backend code : https://github.com/Vishnu-VCheruvathery/user-system-api
+to run - npm run dev 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
